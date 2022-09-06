@@ -44,7 +44,4 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
 
 ## CONTRIBUTORS
 
-- Ming Lee Ng
-  - <a href="https://github.com/redconOne" target="_blank">GITHUB</a>
-  - <a href="https://twitter.com/MingLeeNg1" target="_blank">TWITTER</a>
-  - <a href="https://linkedin.com/MingLeeNg" target="_blank">LINKEDIN</a>
+- Ming Lee Ng <a href="https://github.com/redconOne" target="_blank">GITHUB</a>-<a href="https://twitter.com/MingLeeNg1" target="_blank">TWITTER</a>-<a href="https://linkedin.com/MingLeeNg" target="_blank">LINKEDIN</a>

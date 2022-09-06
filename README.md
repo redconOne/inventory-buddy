@@ -1,9 +1,9 @@
 # Inventory Buddy
 
-Access inventory anytime on web, tablet or mobile. Inventory Buddy is a robust and light-weight inventory management application designed to help businesses maintain perfect control over every unit of stock. 
+Access inventory anytime on web, tablet or mobile. Inventory Buddy is a robust and light-weight inventory management application designed to help businesses maintain perfect control over every unit of stock.
 
 **Link to project:**
-https://inventory-buddy.herokuapp.com/ 
+https://inventory-buddy.herokuapp.com/
 
 <img src='https://brynnsmith.com/images/InventoryBuddy.jpg' alt='image of AI figure infront of inventory mangement software'>
 

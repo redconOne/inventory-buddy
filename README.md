@@ -1,22 +1,17 @@
 # Inventory Buddy
 
-This is an inventory management CRUD app, running off of express, mongoDB, ejs, mongoose, and passport. It was designed with MVC architechture in mind, and is currently hosted on Heroku at
+Access inventory anytime on web, tablet or mobile. Inventory Buddy is a robust and light-weight inventory management application designed to help businesses maintain perfect control over every unit of stock.
 
-https://inventory-buddy.herokuapp.com"
+**Link to project:**
+https://inventory-buddy.herokuapp.com/
 
-![alt tag](image goes here)
+<img src='https://brynnsmith.com/images/InventoryBuddy.jpg' alt='image of AI figure infront of inventory mangement software'>
 
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript, Node.js, Express, MongoDB
 
 This project was created with an MVC(Model-View-Controller) architecture outline. We utilized mongoose to assist in creating schemas for our models and ejs to handle our views. Everything is ran from the server.js file in the root directory, with it calling the appropriate resources needed by utilizing our routes.
-
-## Optimizations
-
-_(optional)_
-
-You don't have to include this section but interviewers _love_ that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
 
 ## Lessons Learned:
 
@@ -45,3 +40,5 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
 ## CONTRIBUTORS
 
 - Ming Lee Ng <a href="https://github.com/redconOne" target="_blank">GITHUB</a> - <a href="https://twitter.com/MingLeeNg1" target="_blank">TWITTER</a> - <a href="https://linkedin.com/MingLeeNg" target="_blank">LINKEDIN</a>
+- Brynn Smith <a href="https://github.com/brynnSmith" target="_blank">GITHUB</a> - <a href="https://twitter.com/brynnsm1th" target="_blank">TWITTER</a> - <a href="https://linkedin.com/brynnasmith" target="_blank">LINKEDIN</a>
+- Vu Huynh <a href="https://github.com/vu5381" target="_blank">GITHUB</a> - <a href="https://twitter.com/vuhuynh91609962" target="_blank">TWITTER</a> - <a href="https://linkedin.com/vu-huynh-duy" target="_blank">LINKEDIN</a>

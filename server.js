@@ -11,8 +11,6 @@ const mainRoutes = require('./routes/main');
 const invItemsRoutes = require('./routes/invItems');
 const port = process.env.PORT || 8080;
 
-console.log('somewhere here');
-
 require('dotenv').config({ path: './config/.env' });
 
 // Passport config

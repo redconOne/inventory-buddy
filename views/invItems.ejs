@@ -16,97 +16,117 @@
 <body>
 
 	<nav>
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo">Inventory Buddy</a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="/">Home</a></li>
-        <li><a href="/logout">Logout</a></li>
-        
-      </ul>
-    </div>
+		<div class="nav-wrapper">
+			<a href="#!" class="brand-logo">Inventory Buddy</a>
+			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="/">Home</a></li>
+				<li><a href="/logout">Logout</a></li>
+
+			</ul>
+		</div>
 		<ul class="sidenav" id="mobile-demo">
 			<li><a href="/">Home</a></li>
 			<li><a href="/logout">Logout</a></li>
-			
-		</ul>
-  </nav>
 
-  
+		</ul>
+	</nav>
+
+
 
 	<div class="wrapper card-panel">
 		<h1 class="card-title">Inventory Items</h1>
-		
-		<div class="card">
-		<ul class="card-content subcard">
 
-			<li class="col-head">
-				<div class="skuCol">SKU</div>
-				<div class="nameCol">Name</div>
-				<div class="quantityCol">Quantity</div>
-				<div class="availableCol">Available</div>
-			</li>
-			<% items.forEach( el=> { %>
-				<li class='invItem' data-id='<%=el._id%>'>
-					<span class='skuCol'>
-						<%= el.SKU %>
-					</span>
-					<span class='nameCol'>
-						<%= el.itemName %>
-					</span>
-					<span class='quantityCol'>
-						<%= el.quantity%>
-					</span>
-					<span class='availableCol'>
-						<%= el.quantity> 0 ? "Yes" : "No" %>
-					</span>
-					<span class="edit">
-						<input type="number" class="newQuantity" name="newQuantity">
-						<span class="changeQuantity btn"> Change Quantity </span>
-					</span>
-					<span class="del">
-						<i class="bx bx-trash"></i>
-					</span>
+		<div class="card">
+			<ul class="card-content subcard">
+
+				<li class="col-head">
+					<div class="skuCol">SKU</div>
+					<div class="nameCol">Name</div>
+					<div class="quantityCol">Quantity</div>
+					<div class="availableCol">Available</div>
 				</li>
-				<% }) %>
+				<% items.forEach( el=> { %>
+					<li class='invItem' data-id='<%=el._id%>'>
+						<span class='skuCol'>
+							<%= el.SKU %>
+						</span>
+						<span class='nameCol'>
+							<%= el.itemName %>
+						</span>
+						<span class='quantityCol'>
+							<%= el.quantity%>
+						</span>
+						<span class='availableCol'>
+							<%= el.quantity> 0 ? "Yes" : "No" %>
+						</span>
+						<span class="edit">
+							<input type="number" class="newQuantity" name="newQuantity">
+							<span class="changeQuantity btn"> Change Quantity </span>
+						</span>
+						<span class="del">
+							<i class="bx bx-trash"></i>
+						</span>
+					</li>
+					<% }) %>
 			</ul>
 		</div>
 		<div class="card add-card">
-		<h2 class="add-item">Add an Item</h2>
+			<h2 class="add-item">Add an Item</h2>
 
-		<div class="card-content">
-		<form action="/invItems/createInvItem" method='POST'>
-			<input type="text" placeholder="Enter Item Name" name='itemName'>
-			<input type="number" placeholder="Enter SKU" name='SKU'>
-			<input type="number" placeholder="Enter Quantity" name='quantity'>
-			<input class='btn' type="submit">
-		</form>
+			<div class="card-content">
+				<form action="/invItems/createInvItem" method='POST'>
+					<input type="text" placeholder="Enter Item Name" name='itemName'>
+					<input type="number" placeholder="Enter SKU" name='SKU'>
+					<input type="number" placeholder="Enter Quantity" name='quantity'>
+					<input class='btn' type="submit">
+				</form>
+			</div>
+
+
+		</div>
 	</div>
 
-		
-	</div>
-</div>
-	
-  <footer class="page-footer">
+	<footer class="page-footer">
 		<div class="container footer-wrapper">
 			<div class="row">
 				<div class="col l6 s12">
 					<h5 class="white-text">Footer Content</h5>
-					<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+					<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
+						content.</p>
 				</div>
 				<div class="col l4 offset-l2 s12">
 					<h5 class="white-text">Links</h5>
 					<ul>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-						
+						<li>Brynn Smith -
+							<a class="grey-text text-lighten-3" href="https://twitter.com/BrynnSm1th" target="_blank"><i
+									class="bx bxl-twitter"></i></a>
+							<a class="grey-text text-lighten-3" href="https://linkedin.com/in/brynnasmith"
+								target="_blank"><i class="bx bxl-linkedin"></i></a><a class="grey-text text-lighten-3"
+								href="https://github.com/brynnsmith" target="_blank"><i class="bx bxl-github"></i></a>
+						</li>
+						<li>Ming Lee Ng -
+							<a class="grey-text text-lighten-3" href="https://twitter.com/MingLeeNg1" target="_blank"><i
+									class="bx bxl-twitter"></i></a>
+							<a class="grey-text text-lighten-3" href="https://linkedin.com/in/MingLeeNg"
+								target="_blank"><i class="bx bxl-linkedin"></i></a><a class="grey-text text-lighten-3"
+								href="https://github.com/redconOne" target="_blank"><i class="bx bxl-github"></i></a>
+						</li>
+						<li>Vu Huynh -
+							<a class="grey-text text-lighten-3" href="https://twitter.com/vuhuynh91609962"
+								target="_blank"><i class="bx bxl-twitter"></i></a>
+							<a class="grey-text text-lighten-3" href="https://linkedin.com/in/vu-huynh-duy"
+								target="_blank"><i class="bx bxl-linkedin"></i></a><a class="grey-text text-lighten-3"
+								href="https://github.com/vu5381" target="_blank"><i class="bx bxl-github"></i></a>
+						</li>
+
 					</ul>
 				</div>
 			</div>
 		</div>
 		<div class="footer-copyright">
 			<div class="container">
-			© 2022 Copyright Text
+				© 2022 Code so clean from table 14
 			</div>
 		</div>
 	</footer>
